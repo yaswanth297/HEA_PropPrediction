@@ -1,4 +1,35 @@
-High Entropy Alloys (HEAs) represent a novel class of materials composed of multiple elements in roughly equiatomic proportions, exhibiting exceptional mechanical and physical properties. This project focuses on harnessing machine learning techniques to predict the bulk modulus of HEAs, which is crucial for understanding their mechanical behavior and facilitating their application in various engineering domains.
-In this study, we employ a machine learning approach to predict the bulk modulus of HEAs comprising 4 to 6 elements. A classifier is first utilized to identify whether a given HEA composition exists within the dataset, leveraging the distinctive characteristics of HEAs. Subsequently, an Extreme Gradient Boosting (XGBoost) regression model is employed to predict the bulk modulus for identified HEA compositions.
-The dataset utilized for model training and evaluation encompasses a diverse range of HEA compositions along with their corresponding bulk moduli, sourced from experimental measurements and theoretical calculations. Feature engineering techniques tailored to HEAs are applied to extract relevant features from the elemental compositions.The performance of the developed model is assessed using various metrics, including mean absolute error, mean squared error, and R-squared. Additionally, the model's robustness is evaluated through cross-validation and sensitivity analysis.
-The proposed machine learning framework not only streamlines the prediction process but also provides insights into the complex relationships between alloy composition and bulk modulus in HEAs. This predictive model can serve as a valuable tool for materials scientists and engineers in the design and optimization of HEAs with tailored mechanical properties, thereby accelerating the development of advanced materials in engineering applications.
+# Predicting Bulk Modulus of High Entropy Alloys (HEAs) Using Machine Learning
+
+## Overview
+
+High Entropy Alloys (HEAs) are a groundbreaking class of materials composed of multiple elements in roughly equiatomic proportions, known for their outstanding mechanical and physical properties. This project aims to leverage machine learning techniques to predict the bulk modulus of HEAs, a key parameter for understanding their mechanical behavior and optimizing their use in various engineering applications.
+
+## Project Objectives
+
+- **HEA Classification**: Utilize a classifier to determine whether a given HEA composition exists within our dataset, based on its unique characteristics.
+- **Bulk Modulus Prediction**: Apply an Extreme Gradient Boosting (XGBoost) regression model to predict the bulk modulus of identified HEA compositions.
+
+## Dataset
+
+The dataset used for training and evaluating the models includes a wide range of HEA compositions and their corresponding bulk moduli, sourced from both experimental measurements and theoretical calculations. 
+
+## Methodology
+
+1. **Feature Engineering**: Develop and apply feature engineering techniques tailored to HEAs to extract relevant features from the elemental compositions.
+2. **Model Development**:
+   - **Classification Model**: Identify HEA compositions using a classifier.
+   - **Regression Model**: Predict the bulk modulus using the XGBoost algorithm.
+3. **Model Evaluation**:
+   - Assess performance using metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), and R-squared (R²).
+   - Evaluate robustness through cross-validation and sensitivity analysis.
+
+## Results
+
+The proposed machine learning framework streamlines the prediction process and provides valuable insights into the relationships between alloy composition and bulk modulus in HEAs. This predictive model serves as a tool for materials scientists and engineers, aiding in the design and optimization of HEAs with tailored mechanical properties. It accelerates the development of advanced materials for engineering applications.
+
+## Usage
+
+The model can be employed to predict bulk modulus values for various HEA compositions, facilitating material design and optimization tasks. Detailed instructions for usage, including data preparation and model training, are provided in the project documentation.
+
+
+
