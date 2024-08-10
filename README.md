@@ -13,16 +13,6 @@ High Entropy Alloys (HEAs) are a groundbreaking class of materials composed of m
 
 The dataset used for training and evaluating the models includes a wide range of HEA compositions and their corresponding bulk moduli, sourced from both experimental measurements and theoretical calculations. 
 
-## Methodology
-
-1. **Feature Engineering**: Develop and apply feature engineering techniques tailored to HEAs to extract relevant features from the elemental compositions.
-2. **Model Development**:
-   - **Classification Model**: Identify HEA compositions using a classifier.
-   - **Regression Model**: Predict the bulk modulus using the XGBoost algorithm.
-3. **Model Evaluation**:
-   - Assess performance using metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), and R-squared (R²).
-   - Evaluate robustness through cross-validation and sensitivity analysis.
-
 ## Results
 
 The proposed machine learning framework streamlines the prediction process and provides valuable insights into the relationships between alloy composition and bulk modulus in HEAs. This predictive model serves as a tool for materials scientists and engineers, aiding in the design and optimization of HEAs with tailored mechanical properties. It accelerates the development of advanced materials for engineering applications.
